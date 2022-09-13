@@ -1,0 +1,52 @@
+{
+  "name": "javascript-capstone-2",
+  "version": "1.0.0",
+  "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
+  "private": true,
+  "scripts": {
+    "dev": "webpack --mode development",
+    "start": "webpack serve --open",
+    "build": "webpack",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saikatgpae/javaScript-capstone-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saikatgpae/javaScript-capstone-2/issues"
+  },
+  "homepage": "https://github.com/saikatgpae/javaScript-capstone-2#readme",
+  "devDependencies": {
+    "@babel/core": "^7.19.0",
+    "@babel/preset-env": "^7.19.0",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.26.0",
+    "hint": "^7.1.2",
+    "html-webpack-plugin": "^5.5.0",
+    "jest": "^29.0.3",
+    "style-loader": "^3.3.1",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^4.6.0",
+    "i": "^0.3.7",
+    "jquery": "^3.6.1",
+    "lodash": "^4.17.21",
+    "npm": "^8.19.1"
+  }
+}
