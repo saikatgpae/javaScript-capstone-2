@@ -1,5 +1,6 @@
 import logo from '../images/food_logo.png';
 
+const navBar = document.getElementById('navbar');
 const header = () => {
   const header = document.createElement('header');
   header.innerHTML = `
@@ -12,6 +13,6 @@ const header = () => {
     </ul>
     </nav>
     `;
-  document.body.appendChild(header);
+  navBar.appendChild(header);
 };
 export default header;
