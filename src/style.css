@@ -1,5 +1,28 @@
-.hello {
-  color: red;
-  background: url('./images/icon.png');
-  background-repeat: no-repeat;
+.meals {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.mealname {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mealImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.like {
+  width: 1rem;
+}
+
+.reservatio-button,
+.comments-button {
+  justify-content: center;
+}
+
+.comments,
+.reservation {
+  box-shadow: 2px 3px;
 }
