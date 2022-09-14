@@ -1,13 +1,3 @@
-// import icon from '../images/food_logo.png';
-
-// const header = () => {
-//   const img = document.createElement('img');
-//   img.src = icon;
-//   document.body.appendChild(img);
-// };
-
-// export default header;
-
 import logo from '../images/food_logo.png';
 
 const header = () => {
@@ -16,12 +6,11 @@ const header = () => {
     <div class="img-logo"> <a href="#"><img src=${logo} alt="logo" id="logo"></a></div>
    <nav>
    <ul id="nav-bar">
-        <li>Spaceships</li>
-        <li>Planets</li>
-        <li>Races</li>
+        <li>Home</li>
+        <li>Meals</li>
+        <li>Contacts</li>
     </ul>
     </nav>
-    
     `;
   document.body.appendChild(header);
 };
