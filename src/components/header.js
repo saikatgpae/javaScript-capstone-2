@@ -1,4 +1,3 @@
-
 import logo from '../images/food_logo.png';
 
 const header = () => {

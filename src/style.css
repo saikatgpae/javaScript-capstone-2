@@ -30,32 +30,32 @@ header {
   padding: 0 25px;
   list-style-type: none;
 
-.meals {
-  display: grid;
-  grid-template-columns: auto auto auto;
-}
+  .meals {
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
 
-.mealname {
-  display: flex;
-  justify-content: space-between;
-}
+  .mealname {
+    display: flex;
+    justify-content: space-between;
+  }
 
-.mealImage {
-  max-width: 100%;
-  height: auto;
-}
+  .mealImage {
+    max-width: 100%;
+    height: auto;
+  }
 
-.like {
-  width: 1rem;
-}
+  .like {
+    width: 1rem;
+  }
 
-.reservatio-button,
-.comments-button {
-  justify-content: center;
-}
+  .reservatio-button,
+  .comments-button {
+    justify-content: center;
+  }
 
-.comments,
-.reservation {
-  box-shadow: 2px 3px;
-
+  .comments,
+  .reservation {
+    box-shadow: 2px 3px;
+  }
 }
