@@ -1,4 +1,66 @@
+
 .footer {
   border: 3px solid black;
   padding: 2rem;
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+#logo {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding: 0 25px;
+  list-style-type: none;
+
+}
+
+.meals {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.mealname {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mealImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.like {
+  width: 1rem;
+}
+
+.reservatio-button,
+.comments-button {
+  justify-content: center;
+}
+
+.comments,
+.reservation {
+  box-shadow: 2px 3px;
 }
