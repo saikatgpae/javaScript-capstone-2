@@ -1,3 +1,4 @@
+import addNewLikes from './addNewLike.js';
 import like from '../images/like.png';
 
 const loadAll = async () => {
@@ -16,5 +17,8 @@ const loadAll = async () => {
     container.appendChild(meal);
   });
   document.body.appendChild(container);
+  document.querySelectorAll('.like').forEach((item) => {
+    item.addEventListener('click', addNewLikes);
+  });
 };
 export default loadAll;
