@@ -1,4 +1,33 @@
+
 .footer {
   border: 3px solid black;
   padding: 2rem;
+
+.meals {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.mealname {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mealImage {
+  max-width: 100%;
+  height: auto;
+}
+
+.like {
+  width: 1rem;
+}
+
+.reservatio-button,
+.comments-button {
+  justify-content: center;
+}
+
+.comments,
+.reservation {
+  box-shadow: 2px 3px;
 }
