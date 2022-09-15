@@ -26,3 +26,7 @@
 .reservation {
   box-shadow: 2px 3px;
 }
+
+.likes-count {
+  float: right;
+}
