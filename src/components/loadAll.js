@@ -2,6 +2,7 @@ import addNewLikes from './addNewLike.js';
 import like from '../images/like.png';
 import allLikes from './allLikes.js';
 
+const divMeal = document.getElementById('meal');
 const loadAll = async () => {
   const response = await fetch('https://www.themealdb.com/api/json/v1/1/filter.php?c=Seafood');
   const json = await response.json();
@@ -23,5 +24,6 @@ const loadAll = async () => {
   document.querySelectorAll('.like').forEach((item) => {
     item.addEventListener('click', addNewLikes);
   });
+  divMeal.appendChild(container);
 };
 export default loadAll;
