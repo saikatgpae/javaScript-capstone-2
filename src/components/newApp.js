@@ -1,4 +1,5 @@
 // const appId = 'BVDQ4KJUQMbnNVhecGTj';
+// lZ1jpmvfp72iObG11Ico
 
 const newApp = () => {
   fetch('https://us-central1-involvement-api.cloudfunctions.net/capstoneApi/apps/', {
@@ -8,7 +9,7 @@ const newApp = () => {
     },
   })
     .then((response) => response.text());
-// .then((json) => console.log(json));
+  // .then((json) => console.log(json));
 };
 
 export default newApp;

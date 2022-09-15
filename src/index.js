@@ -4,7 +4,9 @@ import header from './components/header.js';
 import loadAll from './components/loadAll.js';
 import footer from './components/footer.js';
 
+// PRINT HEADER
 header();
+
 // PRINT ALL MEALS.
 loadAll();
 

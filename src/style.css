@@ -59,6 +59,10 @@ header {
   box-shadow: 2px 3px;
 }
 
+.likes-count {
+  float: right;
+}
+
 .footer {
   border: 3px solid black;
   padding: 2rem;
