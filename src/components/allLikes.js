@@ -4,7 +4,7 @@ const allLikes = async () => {
   json.forEach((element) => {
     const id = `coment-${element.item_id}`;
     const node = document.getElementById(id);
-    node.parentElement.parentElement.childNodes[4].innerHTML = `${element.likes} likes`;
+    node.parentElement.parentElement.childNodes[7].childNodes[1].innerHTML = `${element.likes} likes`;
   });
 };
 
