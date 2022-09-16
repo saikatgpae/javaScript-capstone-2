@@ -2,7 +2,7 @@ import addNewLikes from './addNewLike.js';
 import like from '../images/like.png';
 import allLikes from './allLikes.js';
 import close from '../images/close-logo.png';
-// import addNewComment from './addNewComment.js';
+import addNewComment from './addNewComment.js';
 import closeWindow from './closeWindow.js';
 import mealCount from './mealCount.js';
 
@@ -49,9 +49,9 @@ const loadAll = async () => {
   document.querySelectorAll('.like').forEach((item) => {
     item.addEventListener('click', addNewLikes);
   });
-  // document.querySelectorAll('.comments').forEach((comment) => {
-  //   comment.addEventListener('click', addNewComment);
-  // });
+  document.querySelectorAll('.comments').forEach((comment) => {
+    comment.addEventListener('click', addNewComment);
+  });
   document.querySelectorAll('.close-image').forEach((close) => {
     close.addEventListener('click', closeWindow);
   });
