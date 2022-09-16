@@ -1,50 +1,37 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# JavaScript Capstone
 
-> Description the project.
+> The JavaScript capstone project is about building a web application based on an external API.
 
+A home page showing a list of items that you can "like."
+A popup window with more data about an item that you can use to comment on it or reserve it for a period of time.
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- Major languages HTML, CSS, JavaScript.
+- Frameworks Bootstrap.
+- Technologies used webpack, linters, jest.
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://saikatgpae.github.io/javaScript-capstone-2/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+To get a copy in your local mechine:
 
-
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
-
+Clone this repository or download the Zip folder:
+git clone https://github.com/saikatgpae/javaScript-capstone-2.git
 
 
 ## Authors
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/saikatgpae)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/saikat-chakraborty-25b83a216/)
 
 👤 **Author2**
 
