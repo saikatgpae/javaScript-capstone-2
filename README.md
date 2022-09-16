@@ -30,7 +30,7 @@ git clone https://github.com/saikatgpae/javaScript-capstone-2.git
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/saikatgpae)
+- GitHub: [@saikatgpae](https://github.com/saikatgpae)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/saikat-chakraborty-25b83a216/)
 
 👤 **Author2**
