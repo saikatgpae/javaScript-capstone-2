@@ -11,4 +11,5 @@ const formData = async (e) => {
     .then((response) => response.text());
   window.location.reload();
 };
+
 export default formData;
