@@ -2,8 +2,9 @@ import addNewLikes from './addNewLike.js';
 import like from '../images/like.png';
 import allLikes from './allLikes.js';
 import close from '../images/close-logo.png';
-import addNewComment from './addNewComment.js';
+// import addNewComment from './addNewComment.js';
 import closeWindow from './closeWindow.js';
+import mealCount from './mealCount.js';
 
 const divMeal = document.getElementById('meal');
 const loadAll = async () => {
@@ -17,10 +18,10 @@ const loadAll = async () => {
     meal.className = 'p-4 m-4 meal';
     meal.innerHTML = `
 <div>
-  <div>
-  <div class='close'>
-    <a><img class="close-image" src="${close}" alt="close image"></a>
-  </div>
+  <div class="seafoods">
+    <div class='close'>
+      <a><img class="close-image" src="${close}" alt="close image"></a>
+    </div>
     <div>
       <img class='mealImage' src="${element.strMealThumb}" alt="meal image">
     </div>
@@ -40,8 +41,7 @@ const loadAll = async () => {
       <button class="reservation" id="reservation-${element.idMeal}">Reservation</button>
     </div>
   </div>
-</div>
-    `;
+</div>`;
     container.appendChild(meal);
   });
   allLikes();
@@ -49,12 +49,13 @@ const loadAll = async () => {
   document.querySelectorAll('.like').forEach((item) => {
     item.addEventListener('click', addNewLikes);
   });
-  document.querySelectorAll('.comments').forEach((comment) => {
-    comment.addEventListener('click', addNewComment);
-  });
+  // document.querySelectorAll('.comments').forEach((comment) => {
+  //   comment.addEventListener('click', addNewComment);
+  // });
   document.querySelectorAll('.close-image').forEach((close) => {
     close.addEventListener('click', closeWindow);
   });
+  mealCount();
   divMeal.appendChild(container);
 };
 export default loadAll;
