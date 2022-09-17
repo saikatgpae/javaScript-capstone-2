@@ -17,6 +17,9 @@ A popup window with more data about an item that you can use to comment on it or
 
 [Live Demo Link](https://saikatgpae.github.io/javaScript-capstone-2/)
 
+## Project Presentation
+[Video Demo] (https://drive.google.com/file/d/10hoxCCEvpsJ80m0wSE5L5KXci9ClgFKx/view?usp=sharing
+)
 
 ## Getting Started
 
@@ -35,9 +38,8 @@ git clone https://github.com/saikatgpae/javaScript-capstone-2.git
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@OpondoG](https://github.com/OpondoG)
+- LinkedIn: [@OkonjoG](https://www.linkedin.com/in/gilbert-okonjo-2081331b9/)
 
 ## 🤝 Contributing
 
