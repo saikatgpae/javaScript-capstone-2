@@ -1,3 +1,5 @@
+import allLikes from './allLikes.js';
+
 const addNewLikes = async (e) => {
   e.preventDefault();
   const itemId = e.currentTarget.parentNode.parentNode.parentNode.childNodes[9].childNodes[1].id.split('-')[1];
@@ -7,7 +9,7 @@ const addNewLikes = async (e) => {
     headers: { 'Content-type': 'application/json; charset=UTF-8' },
   })
     .then((response) => response.text());
-  window.location.reload();
+  allLikes();
 };
 
 export default addNewLikes;

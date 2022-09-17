@@ -1,3 +1,5 @@
+import updateComments from './updateComments.js';
+
 const formData = async (e) => {
   e.preventDefault();
   const itemId = e.currentTarget.parentElement.parentElement.parentElement.parentElement.childNodes[1].childNodes[1].childNodes[9].childNodes[1].id.split('-')[1];
@@ -9,7 +11,9 @@ const formData = async (e) => {
     headers: { 'Content-type': 'application/json; charset=UTF-8' },
   })
     .then((response) => response.text());
-  window.location.reload();
+  updateComments(itemId);
+  document.querySelector('#coment-input').value = '';
+  document.querySelector('#comment-text').value = '';
 };
 
 export default formData;
