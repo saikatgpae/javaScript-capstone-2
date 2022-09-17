@@ -123,3 +123,21 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
+
+.scroll-up {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+
+  /* top: 10px; */
+
+  /* left: 10px; */
+  width: 2rem;
+  height: 2rem;
+}
+
+#scroll {
+  width: 3rem;
+
+  /* border: 3px solid rgb(103, 100, 100); */
+}
